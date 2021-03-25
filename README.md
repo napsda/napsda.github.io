@@ -7,7 +7,6 @@ The NAPS DA project is intended for effectively demonstrating Red Hat's emerging
 - [github.com/napsda/napsda.github.io](https://github.com/napsda/napsda.github.io) - Check out the code repository for this automatically rendered website using Github Pages [Github Pages](https://pages.github.com/)
 
 ## Content By Technology
-
 <div class="flex-grid" markdown="1">
   <div class="col ansible" markdown="1">
   [ansible_pg]: ansible/ansible.md

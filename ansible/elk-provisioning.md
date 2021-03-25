@@ -3,6 +3,8 @@
 <details><summary markdown="span">ELK Post Provisioning</summary>
 <br>
 
+  [Open in New Tab](./elk-provisioning-tab.md){:target="_blank"}
+
   <span style="color:#0000CD">**Overview:**</span>
 
   1. Provision a **`clean-slate`** VM
@@ -23,4 +25,3 @@
 
 </details>
 </div>
-{::options parse_block_html="false" /}
