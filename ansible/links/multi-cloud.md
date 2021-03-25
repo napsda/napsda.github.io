@@ -1,9 +1,9 @@
-# Multi-CLoud demo
+# Multi-Cloud demo
 
 The multi-cloud demo (workflow) consists of:
 1. Provision VMs in (1) Azure and (2) AWS
 1. In AWS configure an Apache server, in Azure an IIS server.
-1. Post in slack channel that multi-cloud workflow has finished. 
+1. Post in slack channel that multi-cloud workflow has finished.
 1. If any of the process fails (for example if the cloud availability is full) tear down in that cloud.
 
 ## Takeaways
