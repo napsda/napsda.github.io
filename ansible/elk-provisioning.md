@@ -1,9 +1,7 @@
 {::options parse_block_html="true" /}
-<div class="collapse">
+<div class="collapse" markdown="1">
 <details><summary markdown="span">ELK Post Provisioning</summary>
 <br>
-
-  [Open in New Tab](./elk-provisioning-tab.md){:target="_blank"}
 
   <span style="color:#0000CD">**Overview:**</span>
 
@@ -25,3 +23,4 @@
 
 </details>
 </div>
+
