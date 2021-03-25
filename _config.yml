@@ -7,3 +7,4 @@ exclude:
   - "provisioner/group_vars"
   - "provisioner/inventory"
   - "provisioner/tests"
+markdown: Kramdown
