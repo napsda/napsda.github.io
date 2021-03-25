@@ -1,6 +1,6 @@
 # Contribute
 
-We treat Ansible Automation Workshops just like we treat the Ansible Project.  Please help us!  Check out the [Issues](https://github.com/ansible/workshops/issues) for a list of what we are working on.
+The NAPS DA Project welcomes contributions!  Please contribute and help in expanding the breadth and depth of content we showcase to customers!
 
 ## Table of Contents
 
@@ -10,10 +10,7 @@ We treat Ansible Automation Workshops just like we treat the Ansible Project.  P
       * [Configuring Your Remotes](#configuring-your-remotes)
       * [Rebasing Your Branch](#rebasing-your-branch)
       * [Updating your Pull Request](#updating-your-pull-request)
-   * [Create a pull requests](#create-a-pull-requests)
-   * [Testing and Continuous Integration](#testing-and-continuous-integration)
-* [Contributing New Workshop Types of content](#contributing-new-workshop-types-of-content)
-* [Going Further](#going-further)
+   * [Create a pull requests](#create-a-pull-request)
 
 # Pull Requests
 
@@ -31,14 +28,14 @@ Create a fork on your own Github project (or your personal space)
 
 ## Stay in Sync
 
-It is important to know how to keep your fork in sync with the upstream Workshops project.
+It is important to know how to keep your fork in sync with the upstream napsda project.
 
 ### Configuring Your Remotes
 
-Configure `ansible/workshops` as your upstream so you can stay in sync
+Configure `napsda/napsda.github.io` as your upstream so you can stay in sync
 
 ```bash
-git remote add upstream https://github.com/ansible/workshops.git
+git remote add upstream https://github.com/napsda/napsda.github.io.git
 ```
 
 ### Rebasing Your Branch
@@ -63,55 +60,13 @@ git push --force
 
 More info on docs.ansible.com: [Rebasing a Pull Request](http://docs.ansible.com/ansible/latest/dev_guide/developing_rebasing.html)
 
-## Create a pull requests
+## Create a pull request
 
-**PULL REQUESTS MUST BE MADE INTO THE `DEVEL` BRANCH**
-
-Make sure you are not behind (in sync) and then submit a PR to the Ansible Workshops.  
+Make sure you are not behind (in sync) and then submit a PR to the napsda.
 [Read the Pull Request Documentation on Github.com](https://help.github.com/articles/creating-a-pull-request/)
-
-Just because you submit a PR, doesn't mean that it will get accepted.  Right now the QA process is manual for Workshops, so provide detailed directions on
 
  - WHY? Why did you make the change?
  - WHO? Who is this for?  If this is something for a limited audience it might not make sense for all users.
- - BEST PRACTICE?  Is this the "best" way to do this?  Link to documentation or examples where the way you solved your issue or improved the Ansible Workshops is the best practice for teaching or building workshops.
+ - CONTENT? What content are you providing?
 
-Being more descriptive is better, and has a higher change of getting merged upstream.  Communication is key!  Just b/c the PR doesn't get accepted right away doesn't mean it is not a good idea. Ansible Workshops have to balance many different types of users.  Thank you for contributing!
-
-## Testing and Continuous Integration
-
-Every Pull Requests submitted is expected to pass linters verification. (linters currently enabled: `yamllint`).
-If the PR is not passing `tox -e linters` it won't be able to merge.
-
-To verify locally, install `tox` and from within your `ansible/workshops` clone, run `tox -e linters`.
-
-```bash
-# pip install tox
-# cd /path/to/workshops
-# tox -e linters
-linters installed: pathspec==0.6.0,PyYAML==5.1.2,yamllint==1.19.0
-linters run-test-pre: PYTHONHASHSEED='2171258914'
-linters runtests: commands[0] | yamllint -s .
-___________________________________________________________________________________________ summary ___________________________________________________________________________________________
-  linters: commands succeeded
-  congratulations :)
-```
-
-To make sure this is run everytime one commits a change, and hence one is not sending a Pull Request that won't be merged, one could enable this as part of a git [pre-commit hook](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
-
-# Contributing New Workshop Types of content
-
-- [Contribute New Workshop Topology for AWS](contribute-aws.md)
-- [Contrbitue New Workshop Exercises](exercises.md)
-
-# Going Further
-
-The following links will be helpful if you want to contribute code to the Ansible Workshops project, or any Ansible project:
-- [Ansible Committer Guidelines](http://docs.ansible.com/ansible/latest/committer_guidelines.html)
-- [Learning Git](https://git-scm.com/book/en/v2)
-
-## Getting Help
-
-Please [file issues on Github](https://github.com/ansible/workshops/issues).  Please fill out all required information.  Your issue will be closed if you skip required information in the Github issues template.
-
-![Ansible-Workshop-Logo.png](../images/Ansible-Workshop-Logo.png)
+Being more descriptive is better and will making merging into upstream easier and quicker!  Communication is key!  Just b/c the PR doesn't get accepted right away doesn't mean it is not a good idea. Thank you for contributing!

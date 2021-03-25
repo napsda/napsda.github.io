@@ -32,15 +32,9 @@ The NAPS DA project is intended for effectively demonstrating Red Hat's emerging
 ## Documentation
 
 - [How to contribute](docs/contribute.md)
-- [FAQ](docs/faq.md)
-- [Release Process](docs/release.md)
 
 ## Additional Content
 
 - [Get a Trial Subscription for Red Hat Ansible Automation Platform](http://red.ht/try_ansible)
-- [Ansible Blog - The Inside Playbook](https://www.ansible.com/blog)
-- [Ansible YouTube](https://youtube.com/ansibleautomation)
-- [Ansible Getting Started Guide](https://docs.ansible.com/ansible/latest/user_guide/index.html#get)
-- [Ansible Network Automation - Getting Started](https://docs.ansible.com/ansible/latest/network/getting_started/index.html)
 
 ---
