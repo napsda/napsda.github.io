@@ -5,14 +5,15 @@
 
   <span style="color:#0000CD">**Overview:**</span>
 
-  The demo consist of a f5 device configuration being automated by Ansible Automation Platform using two different methods via a Tower survey.
+  1. F5 device configuration by Ansible Automation Platform using two different methods via a Tower survey.
+  2. F5 BIGIP modules for configuration of Virtual Servers
+  3. F5 AS3 Templates for Virtual Server configuration
 
   <span style="color:#228B22">**Takeaways:**</span>
 
-  - Unified language used throughout - **`ansible`**
-  - Straight-forwardness - **`simplicity`** of each individual process
-  - Ease of modification while still maintaing flexability
-  - Ease of integration with additional tools or processes.
+  - Unified language used throughout - ansible
+  - Ansible Tower survey is used for easy configuation method selection at runtime by using extra-variables. 
+  - Variables are collected using bigip_device_info module and passed to Slack via API for notification of virtual server 
 
   <span style="color:#a50000">**Video Demonstration:**</span>
 
