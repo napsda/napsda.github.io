@@ -44,13 +44,13 @@ The NAPS DA Project welcomes contributions!  Please contribute and help in expan
 {::options parse_block_html="false" /}
 ```
 1. Edit:
-   - *Line 3* - `TITLE`
-   - *Line 8+* - `Define Overview`
-   - *Line 14+* - `Define Takeaways`
-   - *Line 23* - `Replace YOUTUBE_VIDEO_ID x 2 with youtube video id`
-2. Add `your_title markdown` file to appropriate technology folder {`ansible`, `openshift`, `acm`}
-3. Include `your_title markdown` to `{`ansible` | `openshift` | `acm`} markdown` starting line 9
-   - See the `ansible markdown` file in the `ansible folder`
+   - **Line 3** - **`TITLE`**
+   - **Line 8+** - **`Define Overview`**
+   - **Line 14+** - **`Define Takeaways`***
+   - **Line 23** - **`Replace YOUTUBE_VIDEO_ID x 2 with youtube video id`**
+2. Add **`your_title markdown`** file to appropriate technology folder {`ansible`, `openshift`, `acm`}
+3. Include **`your_title markdown`** to `{`ansible` | `openshift` | `acm`} markdown` starting line 9
+   - See the **`ansible markdown`** file in the **`ansible folder`**
 
 # Pull Requests
 
