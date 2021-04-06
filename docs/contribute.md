@@ -4,6 +4,7 @@ The NAPS DA Project welcomes contributions!  Please contribute and help in expan
 
 ## Table of Contents
 
+* [Content Template](#Content-Template)
 * [Pull Requests ](#pull-requests)
    * [Create a fork!](#create-a-fork)
    * [Stay in Sync](#stay-in-sync)
@@ -11,6 +12,54 @@ The NAPS DA Project welcomes contributions!  Please contribute and help in expan
       * [Rebasing Your Branch](#rebasing-your-branch)
       * [Updating your Pull Request](#updating-your-pull-request)
    * [Create a pull requests](#create-a-pull-request)
+
+# Content Template
+```html
+{::options parse_block_html="true" /}
+<div class="collapse">*
+<details><summary markdown="span">**TITLE**</summary>
+<br>
+
+  <span style="color:#0000CD">**Overview:**</span>
+
+  The multi-cloud demo (workflow) consists of:
+  1. Provision VMs in (1) Azure and (2) AWS
+  2. In AWS configure an Apache server, in Azure an IIS server.
+  3. Post in slack channel that multi-cloud workflow has finished.
+  4. If any of the process fails (for example if the cloud availability is full) tear down in that cloud.
+
+  <span style="color:#228B22">**Takeaways:**</span>
+
+  1. Vendor-agnostic infrastructure-as-code
+  2. Ansible used to provision **`and`** post-provision across clouds
+  3. All infra is exposed as yml variable so it's human-friendly to use while still being flexible and powerful
+  4. Can leverage the input and ouput of Tower. E.g. we kick it off from hosted services catalog to trigger and post to slack after it's finished but could also be kicked off from any CMDB and integrated with other Chatops.
+
+  <span style="color:#a50000">Video Demonstration:</span>
+
+  [![DEMO](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID "**TITLE**"){:target="_blank"}
+
+</details>
+</div>
+{::options parse_block_html="false" /}
+```
+1. Edit:
+   - *Line 3* - `TITLE`
+   - *Line 8+* - `Define Overview`
+   - *Line 14+* - `Define Takeaways`
+   - *Line 23* - `Replace YOUTUBE_VIDEO_ID x 2 with youtube video id`
+2. Add <name>.md file to appropriate technology folder {ansible, openshift, acm}
+3. Add `{% include_relative <name>.md %}` to `<technology>.md` starting line 9
+   - See ansible directory for reference
+```
+{% include_relative multi-cloud.md %}
+{% include_relative network-report.md %}
+{% include_relative snow-integration.md %}
+{% include_relative infra-as-code.md %}
+{% include_relative gitlab-ci-cd.md %}
+{% include_relative elk-provisioning.md %}
+{% include_relative f5-configuration.md %}
+```
 
 # Pull Requests
 
