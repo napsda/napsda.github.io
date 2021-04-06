@@ -48,7 +48,7 @@ The NAPS DA Project welcomes contributions!  Please contribute and help in expan
    - *Line 8+* - `Define Overview`
    - *Line 14+* - `Define Takeaways`
    - *Line 23* - `Replace YOUTUBE_VIDEO_ID x 2 with youtube video id`
-2. Add <name>.md file to appropriate technology folder {ansible, openshift, acm}
+2. Add `<name>.md` file to appropriate technology folder {`ansible`, `openshift`, `acm`}
 3. Add `{% include_relative <name>.md %}` to `<technology>.md` starting line 9
    - See ansible directory for reference
 ```
