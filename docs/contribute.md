@@ -48,18 +48,9 @@ The NAPS DA Project welcomes contributions!  Please contribute and help in expan
    - *Line 8+* - `Define Overview`
    - *Line 14+* - `Define Takeaways`
    - *Line 23* - `Replace YOUTUBE_VIDEO_ID x 2 with youtube video id`
-2. Add `<name>.md` file to appropriate technology folder {`ansible`, `openshift`, `acm`}
-3. Add `{% include_relative <name>.md %}` to `<technology>.md` starting line 9
-   - See ansible directory for reference
-```
-{% include_relative multi-cloud.md %}
-{% include_relative network-report.md %}
-{% include_relative snow-integration.md %}
-{% include_relative infra-as-code.md %}
-{% include_relative gitlab-ci-cd.md %}
-{% include_relative elk-provisioning.md %}
-{% include_relative f5-configuration.md %}
-```
+2. Add `your_title markdown` file to appropriate technology folder {`ansible`, `openshift`, `acm`}
+3. Include `your_title markdown` to `{`ansible` | `openshift` | `acm`} markdown` starting line 9
+   - See the `ansible markdown` file in the `ansible folder`
 
 # Pull Requests
 
