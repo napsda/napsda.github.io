@@ -7,6 +7,7 @@ You can request a DA via [NAPS DA Field Request Form](https://docs.google.com/fo
 
 # Available Enterprise Automation Content
 
+{% include_relative scanning.md %}
 {% include_relative multi-cloud.md %}
 {% include_relative network-report.md %}
 {% include_relative snow-integration.md %}
@@ -17,6 +18,7 @@ You can request a DA via [NAPS DA Field Request Form](https://docs.google.com/fo
 
 # Links to Content
 
+[Vulnerability Scanning](./links/scanning.md){:target="_blank"} &nbsp; &nbsp;
 [Multi-Cloud](./links/multi-cloud.md){:target="_blank"} &nbsp; &nbsp;
 [Dynamic-Reporting](./links/network-report.md){:target="_blank"} &nbsp; &nbsp;
 [SNOW Integration](./links/snow-integration.md){:target="_blank"} &nbsp; &nbsp;
@@ -24,3 +26,4 @@ You can request a DA via [NAPS DA Field Request Form](https://docs.google.com/fo
 [GitLab CI/CD](./links/gitlab-ci-cd.md){:target="_blank"} &nbsp; &nbsp;
 [ELK Provisioning](./links/elk-provisioning.md){:target="_blank"} &nbsp; &nbsp;
 [F5 Configurations](./links/f5-configuration.md){:target="_blank"} &nbsp; &nbsp;
+
