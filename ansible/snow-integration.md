@@ -19,7 +19,7 @@
 
   <span style="color:#a50000">**Video Demonstration:**</span>
 
-  [![DEMO](http://img.youtube.com/vi/Ye-OYPHH6es /0.jpg)](http://www.youtube.com/watch?v=Ye-OYPHH6es "Closed Loop Incident Management"){:target="_blank"}
+  [![DEMO](http://img.youtube.com/vi/Ye-OYPHH6es/0.jpg)](http://www.youtube.com/watch?v=Ye-OYPHH6es "Closed Loop Incident Management"){:target="_blank"}
 
 </details>
 </div>
