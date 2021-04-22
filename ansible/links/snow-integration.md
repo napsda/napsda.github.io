@@ -6,7 +6,7 @@
 4. Ansible completes remediation and marks ServiceNow ticket as resolved and closes it out
 5. Slack notifies requestor of updates
 
-## Takeawys
+## Takeaways
 
 1. Ansible is the **`glue`** by being able to integrate with almost any system to enhance business processes and operations
 2. View Ansible as an Enterprise wide tool vs. point OS automation
