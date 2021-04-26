@@ -1,10 +1,9 @@
 {::options parse_block_html="true" /}
 <div class="collapse">
-<details><summary markdown="span">Closed Loop Incident Management</summary>
+<details><summary markdown="span">SNOW Integration</summary>
 <br>
 
   <span style="color:#0000CD">**Overview:**</span>
-
   1. Initiate Compliance Check via Slack
   2. Ansible detects out of compliance and opens ticket in ServiceNow
   3. ServiceNow business logic instructs back to Ansible to remediate
@@ -16,6 +15,7 @@
   - Ansible is the **`glue`** by being able to integrate with almost any system to enhance business processes and operations
   - View Ansible as an Enterprise wide tool vs. point OS automation
   - Machine to machine communication is the key to automation at scale
+  - Closed loop incident management
 
   <span style="color:#a50000">**Video Demonstration:**</span>
 
