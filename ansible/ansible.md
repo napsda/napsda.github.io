@@ -7,20 +7,22 @@ You can request a DA via [NAPS DA Field Request Form](https://docs.google.com/fo
 
 # Available Enterprise Automation Content
 
-{% include_relative multi-cloud.md %}
-{% include_relative network-report.md %}
-{% include_relative snow-integration.md %}
-{% include_relative infra-as-code.md %}
-{% include_relative gitlab-ci-cd.md %}
-{% include_relative elk-provisioning.md %}
-{% include_relative f5-configuration.md %}
+## [Multi-Cloud](./links/multi-cloud.md)
+> provisioning infrastructure across multiple clouds! 
 
-# Links to Content
+* [Dynamic-Reporting](./links/network-report.md)
+> network device report hosted in a long-running web server. A daily scheduled job in Ansible Tower updates the report.
 
-[Multi-Cloud](./links/multi-cloud.md){:target="_blank"} &nbsp; &nbsp;
-[Dynamic-Reporting](./links/network-report.md){:target="_blank"} &nbsp; &nbsp;
-[SNOW Integration](./links/snow-integration.md){:target="_blank"} &nbsp; &nbsp;
-[Infra as Code](./links/infra-as-code.md){:target="_blank"} &nbsp; &nbsp;
-[GitLab CI/CD](./links/gitlab-ci-cd.md){:target="_blank"} &nbsp; &nbsp;
-[ELK Provisioning](./links/elk-provisioning.md){:target="_blank"} &nbsp; &nbsp;
-[F5 Configurations](./links/f5-configuration.md){:target="_blank"} &nbsp; &nbsp;
+* [SNOW Integration](./links/snow-integration.md)
+> Blah blah
+
+* [Infra as Code](./links/infra-as-code.md)
+> infrastructure is now code but don't be scared it's a good thing
+
+* [GitLab CI/CD](./links/gitlab-ci-cd.md)
+>  infrastructure as code with GitLab CI integrating with the Tower API
+
+* [ELK Provisioning](./links/elk-provisioning.md)
+> Combing 
+
+* [F5 Configurations](./links/f5-configuration.md)
