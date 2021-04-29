@@ -2,30 +2,31 @@
 
 Below you will find the **Enterprise Automation** content that is available to showcase to customers!
 
-You can request a DA via [NAPS DA Field Request Form](https://docs.google.com/forms/d/e/1FAIpQLScqS70QnbjClD-SQGDth-L_lile2yNAdSC3aXKFNQ0dQX8J4Q/viewform){:target="_blank"} to deliver any of the content to your customer.
+You can request a DA via [NAPS DA Field Request Form](https://docs.google.com/forms/d/e/1FAIpQLScqS70QnbjClD-SQGDth-L_lile2yNAdSC3aXKFNQ0dQX8J4Q/viewform) to deliver any of the content to your customer.
 
 
 # Available Enterprise Automation Content
 
-{% include_relative scanning.md %}
-{% include_relative multi-cloud.md %}
-{% include_relative network-report.md %}
-{% include_relative snow-integration.md %}
-{% include_relative infra-as-code.md %}
-{% include_relative infra-as-code2.md %}
-{% include_relative gitlab-ci-cd.md %}
-{% include_relative elk-provisioning.md %}
-{% include_relative f5-configuration.md %}
+*  [Multi-Cloud](./links/multi-cloud.md)
+> provisioning infrastructure across multiple clouds! 
 
-# Links to Content
+* [Dynamic-Reporting](./links/network-report.md)
+> network device report hosted in a long-running web server. A daily scheduled job in Ansible Tower updates the report.
 
-[Vulnerability Scanning](./links/scanning.md){:target="_blank"} &nbsp; &nbsp;
-[Multi-Cloud](./links/multi-cloud.md){:target="_blank"} &nbsp; &nbsp;
-[Dynamic-Reporting](./links/network-report.md){:target="_blank"} &nbsp; &nbsp;
-[SNOW Integration](./links/snow-integration.md){:target="_blank"} &nbsp; &nbsp;
-[Infra as Code](./links/infra-as-code.md){:target="_blank"} &nbsp; &nbsp;
-[IaC with GitLab](./links/infra-as-code.md){:target="_blank"} &nbsp; &nbsp;
-[GitLab CI/CD](./links/gitlab-ci-cd.md){:target="_blank"} &nbsp; &nbsp;
-[ELK Provisioning](./links/elk-provisioning.md){:target="_blank"} &nbsp; &nbsp;
-[F5 Configurations](./links/f5-configuration.md){:target="_blank"} &nbsp; &nbsp;
+* [SNOW Integration](./links/snow-integration.md)
+> Blah blah
 
+* [Infra as Code](./links/infra-as-code.md)
+> infrastructure is now code but don't be scared it's a good thing! Control IT Infrastructure directly through ansible variables.
+
+* [Infra as Code with GitLab CI](./links/infra-as-code2.md)
+> Same as the basic IaC but now with integrated GitLab CI
+
+* [GitLab CI/CD (advanced)](./links/gitlab-ci-cd.md)
+> use GitOps, introduce CI/CD concepts with the project-management features in GitLab
+
+* [ELK Provisioning](./links/elk-provisioning.md)
+> combing IaC concepts with post-provisioning to build out Elastic Stack monitoring and analysis
+
+* [F5 Configurations](./links/f5-configuration.md)
+> using Tower surveys to affect F5 network devices

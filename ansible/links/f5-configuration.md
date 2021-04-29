@@ -8,8 +8,8 @@ The F5 demo consist of:
 
 ## Takeaways:
 1. Unified language used throughout - ansible
-1. Ansible Tower survey is used for easy configuation method selection at runtime by using extra-variables. 
-1. Variables are collected using bigip_device_info module and passed to Slack via API for notification of virtual server configuration
+1. Ansible Tower survey is used for easy configuration method selection at runtime by using extra-variables. 
+1. Variables are collected using `bigip_device_info` module and passed to Slack via API for notification of virtual server configuration
 
 ## Demo
 Check out the video demonstration:
