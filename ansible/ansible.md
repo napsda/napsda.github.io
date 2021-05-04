@@ -14,7 +14,7 @@ You can request a DA via [NAPS DA Field Request Form](https://docs.google.com/fo
 > network device report hosted in a long-running web server. A daily scheduled job in Ansible Tower updates the report.
 
 * [SNOW Integration](./links/snow-integration.md)
-> Blah blah
+> Closed Loop Incident management to showcase 3rd party integrations
 
 * [Infra as Code](./links/infra-as-code.md)
 > infrastructure is now code but don't be scared it's a good thing! Control IT Infrastructure directly through ansible variables.
