@@ -20,13 +20,16 @@ You can request a DA via [NAPS DA Field Request Form](https://docs.google.com/fo
 > infrastructure is now code but don't be scared it's a good thing! Control IT Infrastructure directly through ansible variables.
 
 * [Infra as Code with GitLab CI](./links/infra-as-code2.md)
-> Same as the basic IaC but now with integrated GitLab CI
+> same as the basic IaC but now with integrated GitLab CI
 
 * [GitLab CI/CD (advanced)](./links/gitlab-ci-cd.md)
 > use GitOps, introduce CI/CD concepts with the project-management features in GitLab
 
 * [ELK Provisioning](./links/elk-provisioning.md)
-> combing IaC concepts with post-provisioning to build out Elastic Stack monitoring and analysis
+> combining IaC concepts with post-provisioning to build out Elastic Stack monitoring and analysis
+
+* [Security Scanning & Compliance](./links/scanning.md)
+> combining open source, network-based security scanning with Jira and Slack using Ansible.
 
 * [F5 Configurations](./links/f5-configuration.md)
 > using Tower surveys to affect F5 network devices
