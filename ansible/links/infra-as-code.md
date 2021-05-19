@@ -1,5 +1,5 @@
 
-# Infrastructure as Code Demo
+# Infrastructure as Code Demo with Webhooks
 The demo consists of:
 1. Updating group variables that define if the infrastructure state is true (up) or false (down)
 1. Instantiate cloud infrastructure
