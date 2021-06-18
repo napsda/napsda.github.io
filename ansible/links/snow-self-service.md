@@ -1,7 +1,8 @@
 # Self-Service Automation
 This demo incorporates a number of technologies including VMWare vCenter, AWS, the ServiceNow ITSM, and Ansible Automation Platform. Customers should be familiar with some or all of them.
 
-#### Content
+The demo consists of the following:
+
 1. Self-Service catalog with dynamic forms (price estimate, field validation)
 1. Catalog item to order a VM in specified on-premise datacenter
 1. Catalog item to order a VM in AWS

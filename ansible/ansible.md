@@ -16,7 +16,7 @@ You can request a DA via [NAPS DA Field Request Form](https://docs.google.com/fo
 * [SNOW Integration](./links/snow-integration.md)
 > Closed Loop Incident management to showcase 3rd party integrations
 
-* [SNOW Integration pt2](./links/snow-self-service.md)
+* [SNOW Self-Service](./links/snow-self-service.md)
 > Self-service automation with ServiceNow, VMWare, and AWS
 
 * [Infra as Code](./links/infra-as-code.md)
