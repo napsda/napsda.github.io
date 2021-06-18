@@ -22,6 +22,9 @@ You can request a DA via [NAPS DA Field Request Form](https://docs.google.com/fo
 * [Infra as Code](./links/infra-as-code.md)
 > infrastructure is now code but don't be scared it's a good thing! Control IT Infrastructure directly through ansible variables.
 
+* [Infra as Code with Webhooks](./links/infra-as-code.md)
+> infrastructure is now code but don't be scared it's a good thing! Control IT Infrastructure directly through ansible variables and automation webhooks
+
 * [Infra as Code with GitLab CI](./links/infra-as-code2.md)
 > same as the basic IaC but now with integrated GitLab CI
 
