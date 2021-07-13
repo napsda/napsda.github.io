@@ -19,9 +19,6 @@ You can request a DA via [NAPS DA Field Request Form](https://docs.google.com/fo
 * [SNOW Self-Service](./links/snow-self-service.md)
 > Self-service automation with ServiceNow, VMWare, and AWS
 
-* [Infra as Code](./links/infra-as-code.md)
-> infrastructure is now code but don't be scared it's a good thing! Control IT Infrastructure directly through ansible variables.
-
 * [Infra as Code with Webhooks](./links/infra-as-code.md)
 > infrastructure is now code but don't be scared it's a good thing! Control IT Infrastructure directly through ansible variables and automation webhooks
 
