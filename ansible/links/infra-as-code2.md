@@ -17,3 +17,6 @@
 
 ## Video demonstration
 [![DEMO](http://img.youtube.com/vi/ehIo_jLN3kM/0.jpg)](http://www.youtube.com/watch?v=ehIo_jLN3kM "Infrastrructure as Code/GitLab CICD"){:target="_blank"}
+
+## Repository
+  [iac_gitlab_ci](https://gitlab.com/redhatautomation/iac_gitlab_ci){:target="_blank"}  
