@@ -19,5 +19,5 @@ Check out the video demonstration:
   [![DEMO](http://img.youtube.com/vi/4C5ILW9JRho/0.jpg)](http://www.youtube.com/watch?v=4C5ILW9JRho "Multi-Cloud Workflow"){:target="_blank"}
 
 ## Repository
-https://gitlab.com/redhatautomation/aws
+https://gitlab.com/redhatautomation/aws  
 https://gitlab.com/redhatautomation/azure
