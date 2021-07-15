@@ -8,7 +8,7 @@ You can request a DA via [NAPS DA Field Request Form](https://docs.google.com/fo
 # Available Enterprise Automation Content
 
 *  [Multi-Cloud](./links/multi-cloud.md)
-> provisioning infrastructure across multiple clouds! 
+> provisioning infrastructure across multiple clouds!
 
 * [Dynamic-Reporting](./links/network-report.md)
 > network device report hosted in a long-running web server. A daily scheduled job in Ansible Tower updates the report.
@@ -18,9 +18,6 @@ You can request a DA via [NAPS DA Field Request Form](https://docs.google.com/fo
 
 * [SNOW Self-Service](./links/snow-self-service.md)
 > Self-service automation with ServiceNow, VMWare, and AWS
-
-* [Infra as Code](./links/infra-as-code.md)
-> infrastructure is now code but don't be scared it's a good thing! Control IT Infrastructure directly through ansible variables.
 
 * [Infra as Code with Webhooks](./links/infra-as-code.md)
 > infrastructure is now code but don't be scared it's a good thing! Control IT Infrastructure directly through ansible variables and automation webhooks

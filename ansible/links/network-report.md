@@ -13,3 +13,6 @@ The demo consist of a network device report hosted in a long-running web server.
 Check out the video demonstration:
 
   [![DEMO](http://img.youtube.com/vi/AOhIiDYiel8/0.jpg)](http://www.youtube.com/watch?v=AOhIiDYiel8 "Network Reporting"){:target="_blank"}
+
+## Repository
+https://gitlab.com/redhatautomation/network
