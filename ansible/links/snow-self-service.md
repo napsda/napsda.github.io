@@ -21,3 +21,6 @@ The demo consists of the following:
 Check out the video demonstration:
 
   [![DEMO](http://img.youtube.com/vi/oXHRctdBSuU/0.jpg)](http://www.youtube.com/watch?v=oXHRctdBSuU  "ServiceNow Self-Service Catalog"){:target="_blank"}
+
+## Repository
+https://gitlab.com/redhatautomation/network
