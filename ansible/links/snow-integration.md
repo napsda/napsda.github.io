@@ -17,3 +17,6 @@
 Check out the video demonstration:
 
   [![DEMO](http://img.youtube.com/vi/Ye-OYPHH6es/0.jpg)](http://www.youtube.com/watch?v=Ye-OYPHH6es  "Closed Loop Incident Management"){:target="_blank"}
+
+## Repository
+  [network](https://gitlab.com/redhatautomation/network){:target="_blank"}  

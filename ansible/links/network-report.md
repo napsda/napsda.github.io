@@ -15,4 +15,4 @@ Check out the video demonstration:
   [![DEMO](http://img.youtube.com/vi/AOhIiDYiel8/0.jpg)](http://www.youtube.com/watch?v=AOhIiDYiel8 "Network Reporting"){:target="_blank"}
 
 ## Repository
-https://gitlab.com/redhatautomation/network
+  [network](https://gitlab.com/redhatautomation/network){:target="_blank"}  
